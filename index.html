@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alonso Gatica | Pre-Certificacion 2</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="#" class="nav-a">Inicio de Sesión</a></li>
+                <li class="nav-li"><a href="#" class="nav-a">Registro</a></li>
+            </ul>
+            <ul class="nav-ul">
+                <li class="nav-li2"><a href="#" class="nav-a2"><img src="img/mapa.png" alt="Icono-nav-Mapa" class="nav-icon"></a></li>
+                <li class="nav-li2"><a href="#" class="nav-a2"><img src="img/perfil.png" alt="Icono-nav-Perfil" class="nav-icon"></a></li>
+                <li class="nav-li2"><a href="#" class="nav-a2"><img src="img/mensajes.png" alt="Icono-nav-Mensajes" class="nav-icon"></a></li>
+            </ul>
+        </nav>
+        <h1 class="header-h1">
+            <img src="img/rayo.png" alt="Icono-header-Rayo" class="header-img">
+            <span id="headerH1">Batalla Musical</span>
+            <img src="img/rayo.png" alt="Icono-header-Rayo" class="header-img">
+        </h1>
+        <ul class="header-ul">
+            <li class="header-li"><a href="#" class="header-a">Géneros</a></li>
+            <li class="header-li"><a href="#" class="header-a">Batallas Pasadas</a></li>
+            <li class="header-li"><a href="#" class="header-a">Eventos</a></li>
+            <li class="header-li"><a href="#" class="header-a">Patrocinadores</a></li>
+            <li class="header-li"><a href="#" class="header-a">Inscripciones</a></li>
+        </ul>
+    </header>     
+    <main class="main">
+        <section class="filtros">
+            <h2 class="filtros-h2">Filtros</h2>
+            <div class="filtros-group">
+                <h3 class="filtros-h3"><span>Género Musical</span><img src="img/selector.png" alt="Icon-Selector"></h3>
+                <div class="filtros-input">
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-1" class="filtro-checkbox">Clásica</label>
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-2" class="filtro-checkbox">Rock</label>
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-3" class="filtro-checkbox">Jazz</label>
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-4" class="filtro-checkbox">Pop</label>
+                </div>
+            </div>
+            <div class="filtros-group">
+                <h3 class="filtros-h3"><span>Época</span><img src="img/selector.png" alt="Icon-Selector"></h3>
+                <div class="filtros-input">
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-1" class="filtro-checkbox">Años 80s</label>
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-2" class="filtro-checkbox">Años 90s</label>
+                    <label class="filtros-label"><input type="checkbox" name="" id="filtro-checkbox-3" class="filtro-checkbox">Años 2000</label>
+                </div>
+            </div>
+            <button class="filtros-btn" id="filtros-btn">Filtrar</button>
+        </section>
+        <section class="votaciones">
+            <h2 class="votaciones-h2">Votaciones</h2>
+            <div class="votaciones-group">
+                <div class="votaciones-card">
+                    <figure class="votaciones-figure">
+                        <img src="img/banda-1.jpg" alt="Banda-1" class="votaciones-img">
+                    </figure>
+                    <figcaption class="votaciones-figcaption">
+                        <h4 class="votaciones-h4">Strawberry Fields Forever</h4>
+                        <h3 class="votaciones-count">157</h3>
+                        <button class="votaciones-btn">Votar</button>
+                    </figcaption>
+                </div>
+                <div class="votaciones-card">
+                    <figure class="votaciones-figure">
+                        <img src="img/banda-2.jpg" alt="Banda-1" class="votaciones-img">
+                    </figure>
+                    <figcaption class="votaciones-figcaption">
+                        <h4 class="votaciones-h4">Las Piedras Rodantes</h4>
+                        <h3 class="votaciones-count">108</h3>
+                        <button class="votaciones-btn">Votar</button>
+                    </figcaption>
+                </div>
+            </div>
+        </section>
+    </main>   
+</body>
+<script src="script.js"></script>
+</html>
